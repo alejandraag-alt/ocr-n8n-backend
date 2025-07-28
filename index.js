@@ -1,6 +1,6 @@
 const express = require('express');
 const fileUpload = require('express-fileupload');
-const Tesseract = require('tesseract.js-node');
+const Tesseract = require('tesseract.js');
 
 const app = express();
 const port = process.env.PORT || 3000;
